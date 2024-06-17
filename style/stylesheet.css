@@ -1,0 +1,56 @@
+@font-face {
+  font-family: IranSans;
+  src: url("../assets/IRANSansWeb.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: IranSansBold;
+  src: url("../assets/IRANSansWeb_Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: IranSans;
+}
+
+input::selection {
+  background: #3d5f90;
+  color: #ffffff;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: none !important;
+  padding-right: 0.75em;
+}
+
+.bold {
+  font-family: IranSansBold;
+}
+
+.imagecontainer {
+  height: 200px;
+  overflow: hidden;
+}
+
+.imagecontainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+
+.my-card:hover img {
+  transform: scale(1.2);
+}
