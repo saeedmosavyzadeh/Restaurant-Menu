@@ -23,9 +23,11 @@
                     <div class="card shadow-lg mb-3">
                         <nav class="navbar navbar-expand-lg bg-body-tertiary">
                             <div class="container-fluid">
+                                <span id="back-to-main" type='button' class="material-symbols-rounded">
+                                    arrow_forward
+                                </span>
+
                                 <a class="navbar-brand bold" href="#">
-                                    <img src="./assets/icon.png" alt="Logo" width="30" height="24"
-                                        class="d-inline-block align-text-top">
                                     منو رستوران آلفا
                                 </a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -52,9 +54,6 @@
 
 
                         <div id="menu" class="card-body p-3">
-                            <button id="back-to-main" type='button' class='btn btn-primary'>بازگشت</button>
-
-
                             <div id="sub-container">
                                 <div class="d-grid">
                                     <button id="pizzas" type='button' class='btn'>
@@ -94,14 +93,23 @@
                                     </div>
                                     <div class="col-2">
 
-
-                                        <button id="pizzas-sub" type='button' class='btn'>
+                                        <button id="pizzas-sub" type='button' class='btn sb-menu'>
+                                            <span class="material-symbols-rounded">
+                                                local_pizza
+                                            </span>
                                             پیتزا
                                         </button>
 
-                                        <button id="bergers-sub" type='button' class='btn'>
+                                        <hr>
+
+                                        <button id="bergers-sub" type='button' class='btn sb-menu'>
+                                            <span class="material-symbols-rounded">
+                                                lunch_dining
+                                            </span>
                                             برگر
                                         </button>
+
+
                                     </div>
                                 </div>
                             </div>

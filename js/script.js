@@ -13,6 +13,7 @@ const bergers = document.querySelectorAll("#bergers, #bergers-sub");
 const loading = document.getElementById("loading");
 const subContainer = document.getElementById("sub-container");
 const itemsContainer = document.getElementById("items-container");
+const sbMenu = document.querySelectorAll(".sb-menu");
 
 if (backToMainBtn != null) {
   backToMainBtn.addEventListener(
@@ -40,6 +41,10 @@ pizzas.forEach((ele) => {
   ele.addEventListener(
     "click",
     function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      pizzas[1].classList.add("bg-success");
       getData("پیتزا");
     },
     false
@@ -50,6 +55,10 @@ bergers.forEach((ele) => {
   ele.addEventListener(
     "click",
     function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      bergers[1].classList.add("bg-success");
       getData("برگر");
     },
     false
