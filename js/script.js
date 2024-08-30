@@ -19,7 +19,7 @@ if (backToMainBtn != null) {
   backToMainBtn.addEventListener(
     "click",
     function () {
-      location.href = "./index.html";
+      location.href = "./menu.html";
     },
     false
   );
