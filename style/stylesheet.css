@@ -59,6 +59,22 @@ input::selection {
   font-family: IranSansBold;
 }
 
+.main-menu-img {
+  height: 150px;
+  overflow: hidden;
+}
+
+.main-menu-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+
+.main-menu-img:hover img {
+  transform: scale(1.2);
+}
+
 .imagecontainer {
   height: 200px;
   overflow: hidden;
@@ -77,4 +93,18 @@ input::selection {
 
 .darken img {
   opacity: 0.4;
+}
+
+.carousel-item {
+  height: 200px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
