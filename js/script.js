@@ -6,7 +6,7 @@ const detailTitle = document.getElementById("detail-title");
 const detailText = document.getElementById("detail-text");
 const detailPrice = document.getElementById("detail-price");
 const detailType = document.getElementById("detail-type");
-const backBtn = document.getElementById("back");
+const videoBtn = document.getElementById("video");
 const backToMainBtn = document.getElementById("back-to-main");
 const pizzas = document.querySelectorAll("#pizzas, #pizzas-sub");
 const bergers = document.querySelectorAll("#bergers, #bergers-sub");
@@ -19,19 +19,23 @@ if (backToMainBtn != null) {
   backToMainBtn.addEventListener(
     "click",
     function () {
-      location.href = "./menu.html";
+      if (!detail.classList.contains("d-none")) {
+        menu.classList.remove("d-none");
+        detail.classList.add("d-none");
+        window.scrollTo(0, 0);
+      } else {
+        location.href = "./menu.html";
+      }
     },
     false
   );
 }
 
-if (backToMainBtn != null) {
-  backBtn.addEventListener(
+if (videoBtn != null) {
+  videoBtn.addEventListener(
     "click",
     function () {
-      menu.classList.remove("d-none");
-      detail.classList.add("d-none");
-      window.scrollTo(0, 0);
+      // code Goes Here
     },
     false
   );
