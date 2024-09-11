@@ -45,6 +45,7 @@ if (videoBtn != null) {
 }
 
 if (location.pathname == "/todays-offer.html") {
+  alert("hj");
   $.ajax({
     type: "GET",
     url: "./assets/content.json",
