@@ -120,13 +120,22 @@ input::selection {
   color: red;
 }
 
-.settings {
-  position: fixed;
-  z-index: 1;
-  bottom: 5px;
-  right: 5px;
-  width: 150px;
-  padding: 5px;
-  text-align: center;
-  background-color: rgb(128, 138, 38);
+jdp-container,jdp-container .jdp-year select,jdp-container .jdp-month select{
+  background: #323232;
 }
+
+jdp-container .jdp-months, jdp-container .jdp-years {
+  color: rgb(255 255 255 / 80%);
+  fill: rgb(255 255 255 / 80%);
+}
+jdp-container .jdp-day-name {
+  background-color: rgb(255 255 255 / 10%);
+}
+jdp-container .jdp-day, jdp-container .jdp-day-name {
+  color: rgb(255 255 255 / 80%);
+}
+jdp-container .jdp-day:empty {
+  border-color: #323232;
+}
+jdp-container .jdp-btn-empty, jdp-container .jdp-btn-today, jdp-container .jdp-days .jdp-day.selected {
+  background: #1d497e !important;

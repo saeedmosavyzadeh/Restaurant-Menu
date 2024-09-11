@@ -43,6 +43,7 @@ if (form != null) {
       fetch(scriptURL, { method: "POST", body: formData })
         .then((response) => {
           form.reset();
+          userBirthDate.val = "";
           form.classList.remove("was-validated");
           resultTitle.innerHTML = "اطلاعات ثبت شد";
           resultBody.innerHTML = "ممنون از انتخاب آلفا";
