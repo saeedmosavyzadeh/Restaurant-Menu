@@ -50,7 +50,6 @@ if (form != null) {
       fetch(scriptURL, { method: "POST", body: formData })
         .then((response) => {
           form.reset();
-          userBirthDate.value = "";
           form.classList.remove("was-validated");
           resultTitle.innerHTML = "اطلاعات شما ثبت شد";
           resultBody.innerHTML =
