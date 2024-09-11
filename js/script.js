@@ -38,7 +38,9 @@ if (form != null) {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     e.stopPropagation();
-    if (form.checkValidity() && userBirthDate != "") {
+    userBirthDate.val = "";
+
+    if (form.checkValidity()) {
       RegLoading.classList.remove("d-none");
       RegNotloading.classList.add("d-none");
       let formData = new FormData(form);
@@ -69,9 +71,6 @@ if (form != null) {
           modal.show();
         });
     } else {
-      if (userBirthDate == "") {
-        userBirthDate.classList.add("is-invalid");
-      }
       form.classList.add("was-validated");
     }
   });
