@@ -165,8 +165,9 @@
                                         </div>
                                         <div class="mb-3">
                                             <label for="InputBirthday" class="form-label required">تاریخ تولد</label>
-                                            <input type="text" data-jdp class="form-control" id="InputBirthday"
-                                                name="BirthDate" value="" autocomplete="birth" required>
+                                            <input type="text" pattern="\d{4}\/\d{2}\/\d{2}" data-jdp
+                                                class="form-control" id="InputBirthday" name="BirthDate" value=""
+                                                autocomplete="birth" required>
                                             <div class="invalid-feedback">
                                                 لطفا تاریخ تولد را وارد کنید!
                                             </div>
