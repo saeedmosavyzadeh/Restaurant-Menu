@@ -227,4 +227,5 @@ jalaliDatepicker.startWatch({
   showTodayBtn: false,
   showEmptyBtn: false,
   showCloseBtn: false,
+  maxDate: "today",
 });
