@@ -19,7 +19,10 @@ if (backToMainBtn != null) {
   backToMainBtn.addEventListener(
     "click",
     function () {
-      if (!detail.classList.contains("d-none")) {
+      if (
+        !detail.classList.contains("d-none") &&
+        location.pathname != "/todays-offer.html"
+      ) {
         menu.classList.remove("d-none");
         detail.classList.add("d-none");
         window.scrollTo(0, 0);
@@ -39,6 +42,41 @@ if (videoBtn != null) {
     },
     false
   );
+}
+
+if (location.pathname == "/todays-offer.html") {
+  $.ajax({
+    type: "GET",
+    url: "./assets/content.json",
+    async: true,
+    dataType: "json",
+    success: function (result) {
+      $.each(result, function (index, val) {
+        for (var i = 0; i < val.length; i++) {
+          loading.classList.add("d-none");
+          detail.classList.remove("d-none");
+          var item = val[i];
+          if (item.offer == 1) {
+            detailImage.src = item.image;
+            detailTitle.textContent = item.name;
+            detailText.textContent = item.detail;
+            detailPrice.textContent = item.price;
+            detailType.textContent = item.type;
+          }
+        }
+      });
+    },
+    error: function (XMLHttpRequest, textStatus, errorThrown) {
+      loading.classList.add("d-none");
+      detail.classList.remove("d-none");
+      detail.innerHTML =
+        "<div class='text-center'>" +
+        "خطایی رخ داده است!" +
+        "<br>" +
+        "لطفا اینترنت خود را چک کنید." +
+        "</div>";
+    },
+  });
 }
 
 pizzas.forEach((ele) => {

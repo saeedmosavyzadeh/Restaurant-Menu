@@ -2,36 +2,41 @@
     "items": [
         { 
             "name":"همبرگر" ,
-            "detail":"سیر پیاز خیار دریایی نمک اب دیده پنتوپرازول" ,
+            "detail":"" ,
             "price":"120000" , 
             "type":"برگر" ,
-            "image":"./assets/berger.jpg" }, 
+            "image":"./assets/berger.jpg",
+            "offer" : 0 }, 
     
         { 
                 "name":"پیتزا" ,
-                "detail":"خمیر کشسان عجیب غریب با طعم لذیذ مذیذ" ,
+                "detail":"" ,
                 "price":"89000" , 
                 "type":"پیتزا" ,
-                "image":"./assets/pizza.jpg" }, 
+                "image":"./assets/pizza.jpg",
+                "offer" : 1  }, 
     
         { 
                     "name":"همبرگر سلطانی" ,
-                    "detail":"مخصوص سلطان ها و دستمال کشان آنها" ,
+                    "detail":"" ,
                     "price":"2300000" ,
                     "type":"برگر" , 
-                    "image":"./assets/berger.jpg" },   
+                    "image":"./assets/berger.jpg",
+                    "offer" : 0  },   
     
                         { 
                             "name":"کاسیب غذاسی" ,
-                            "detail":"مخصوص گدایان و ملکه آنها" ,
+                            "detail":"" ,
                             "price":"1" , 
                             "type":"برگر" ,
-                            "image":"./assets/berger.jpg" } ,
+                            "image":"./assets/berger.jpg",
+                            "offer" : 0  } ,
                             { 
                                 "name":"کاسیب ایچگی سی" ,
-                                "detail":"مخصوص گدایان و ملکه آنها" ,
+                                "detail":"" ,
                                 "price":"10" , 
                                 "type":"نوشیدنی" ,
-                                "image":"./assets/drink.jpg" }
+                                "image":"./assets/drink.jpg",
+                                "offer" : 0  }
         ]
     }
