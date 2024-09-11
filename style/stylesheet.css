@@ -123,23 +123,23 @@ input::selection {
 jdp-container,
 jdp-container .jdp-year select,
 jdp-container .jdp-month select {
-  background: #323232;
+  background: rgba(52, 58, 64, 1);
 }
 
 jdp-container .jdp-months,
 jdp-container .jdp-years {
-  color: rgb(255 255 255 / 80%);
-  fill: rgb(255 255 255 / 80%);
+  color: rgb(222, 226, 230);
+  fill: rgb(222, 226, 230);
 }
 jdp-container .jdp-day-name {
-  background-color: rgb(255 255 255 / 10%);
+  background-color: #212529;
 }
 jdp-container .jdp-day,
 jdp-container .jdp-day-name {
-  color: rgb(255 255 255 / 80%);
+  color: rgb(222, 226, 230);
 }
 jdp-container .jdp-day:empty {
-  border-color: #323232;
+  border-color: rgba(52, 58, 64, 1);
 }
 jdp-container .jdp-btn-empty,
 jdp-container .jdp-btn-today,

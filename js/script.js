@@ -47,7 +47,7 @@ if (form != null) {
           form.classList.remove("was-validated");
           resultTitle.innerHTML = "اطلاعات شما ثبت شد";
           resultBody.innerHTML =
-            "زین پس تخفیفات و اطلاعیه های کافه رستوران آلفا برای شما ارسال خواهد شد.";
+            "تخفیفات و اطلاعیه های کافه رستوران آلفا برای شما ارسال خواهد شد.";
         })
         .catch((error) => {
           resultTitle.innerHTML = "خطا در ارسال اطلاعات";
