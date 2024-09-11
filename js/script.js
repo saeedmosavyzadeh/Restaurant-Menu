@@ -29,6 +29,15 @@ const resultBody = document.getElementById("result-body");
 const resultTitle = document.getElementById("result-title");
 
 if (form != null) {
+  jalaliDatepicker.startWatch({
+    minDate: "attr",
+    maxDate: "attr",
+    showTodayBtn: false,
+    showEmptyBtn: false,
+    showCloseBtn: false,
+    maxDate: "today",
+  });
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -220,12 +229,3 @@ function getData(sort) {
     },
   });
 }
-
-jalaliDatepicker.startWatch({
-  minDate: "attr",
-  maxDate: "attr",
-  showTodayBtn: false,
-  showEmptyBtn: false,
-  showCloseBtn: false,
-  maxDate: "today",
-});
