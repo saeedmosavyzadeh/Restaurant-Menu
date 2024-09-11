@@ -45,8 +45,9 @@ if (form != null) {
           form.reset();
           userBirthDate.val = "";
           form.classList.remove("was-validated");
-          resultTitle.innerHTML = "اطلاعات ثبت شد";
-          resultBody.innerHTML = "ممنون از انتخاب آلفا";
+          resultTitle.innerHTML = "اطلاعات شما ثبت شد";
+          resultBody.innerHTML =
+            "زین پس تخفیفات و اطلاعیه های کافه رستوران آلفا برای شما ارسال خواهد شد.";
         })
         .catch((error) => {
           resultTitle.innerHTML = "خطا در ارسال اطلاعات";
@@ -225,4 +226,5 @@ jalaliDatepicker.startWatch({
   maxDate: "attr",
   showTodayBtn: false,
   showEmptyBtn: false,
+  showCloseBtn: false,
 });
