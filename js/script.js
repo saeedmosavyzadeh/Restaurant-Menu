@@ -21,7 +21,7 @@ if (backToMainBtn != null) {
     function () {
       if (
         !detail.classList.contains("d-none") &&
-        location.pathname != "/todays-offer.html"
+        location.pathname.split("/").slice(-1)[0] != "todays-offer.html"
       ) {
         menu.classList.remove("d-none");
         detail.classList.add("d-none");
@@ -44,8 +44,7 @@ if (videoBtn != null) {
   );
 }
 
-if (location.pathname == "/todays-offer.html") {
-  alert("hj");
+if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
   $.ajax({
     type: "GET",
     url: "./assets/content.json",
