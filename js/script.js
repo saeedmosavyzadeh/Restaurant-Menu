@@ -38,7 +38,6 @@ if (form != null) {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     e.stopPropagation();
-    userBirthDate.val = "";
 
     if (form.checkValidity()) {
       RegLoading.classList.remove("d-none");
@@ -51,7 +50,7 @@ if (form != null) {
       fetch(scriptURL, { method: "POST", body: formData })
         .then((response) => {
           form.reset();
-          userBirthDate.val = "";
+          userBirthDate.value = "";
           form.classList.remove("was-validated");
           resultTitle.innerHTML = "اطلاعات شما ثبت شد";
           resultBody.innerHTML =
