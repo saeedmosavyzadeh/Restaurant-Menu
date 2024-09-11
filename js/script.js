@@ -24,11 +24,11 @@ const userBirthDate = document.getElementById("InputBirthday");
 const userPhone = document.getElementById("InputPhone");
 const RegBtn = document.getElementById("registerBtn");
 const messageResult = document.getElementById("message-result");
-const modal = new bootstrap.Modal(messageResult);
 const resultBody = document.getElementById("result-body");
 const resultTitle = document.getElementById("result-title");
 
 if (form != null) {
+  const modal = new bootstrap.Modal(messageResult);
   jalaliDatepicker.startWatch({
     showTodayBtn: false,
     showEmptyBtn: false,
