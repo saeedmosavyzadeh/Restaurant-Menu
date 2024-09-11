@@ -108,3 +108,25 @@ input::selection {
   width: 100%;
   object-fit: cover;
 }
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: none !important;
+  padding-right: 0.75em;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.settings {
+  position: fixed;
+  z-index: 1;
+  bottom: 5px;
+  right: 5px;
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(128, 138, 38);
+}

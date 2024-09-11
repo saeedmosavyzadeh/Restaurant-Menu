@@ -14,6 +14,57 @@ const loading = document.getElementById("loading");
 const subContainer = document.getElementById("sub-container");
 const itemsContainer = document.getElementById("items-container");
 const sbMenu = document.querySelectorAll(".sb-menu");
+const form = document.forms["register"];
+const scriptURL =
+  "https://script.google.com/macros/s/AKfycbyT6lAgFjD9Q1JGaQQyIuBnHuMllr-lor2Nu3mGGpxOw_aPBqkcnP-4G5L9Ye7wOOxlUg/exec";
+const RegLoading = document.getElementById("regloading");
+const RegNotloading = document.getElementById("regnotloading");
+const userFullName = document.getElementById("InputFullname");
+const userBirthDate = document.getElementById("InputBirthday");
+const userPhone = document.getElementById("InputPhone");
+const RegBtn = document.getElementById("registerBtn");
+const messageResult = document.getElementById("message-result");
+const modal = new bootstrap.Modal(messageResult);
+const resultBody = document.getElementById("result-body");
+const resultTitle = document.getElementById("result-title");
+
+if (form != null) {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (form.checkValidity()) {
+      RegLoading.classList.remove("d-none");
+      RegNotloading.classList.add("d-none");
+      let formData = new FormData(form);
+      userFullName.disabled = true;
+      userBirthDate.disabled = true;
+      userPhone.disabled = true;
+      RegBtn.disabled = true;
+      fetch(scriptURL, { method: "POST", body: formData })
+        .then((response) => {
+          form.reset();
+          form.classList.remove("was-validated");
+          resultTitle.innerHTML = "اطلاعات ثبت شد";
+          resultBody.innerHTML = "ممنون از انتخاب آلفا";
+        })
+        .catch((error) => {
+          resultTitle.innerHTML = "خطا در ارسال اطلاعات";
+          resultBody.innerHTML = error.message;
+        })
+        .then(() => {
+          RegLoading.classList.add("d-none");
+          RegNotloading.classList.remove("d-none");
+          userFullName.disabled = false;
+          userBirthDate.disabled = false;
+          userPhone.disabled = false;
+          RegBtn.disabled = false;
+          modal.show();
+        });
+    } else {
+      form.classList.add("was-validated");
+    }
+  });
+}
 
 if (backToMainBtn != null) {
   backToMainBtn.addEventListener(
@@ -167,3 +218,10 @@ function getData(sort) {
     },
   });
 }
+
+jalaliDatepicker.startWatch({
+  minDate: "attr",
+  maxDate: "attr",
+  showTodayBtn: false,
+  showEmptyBtn: false,
+});
