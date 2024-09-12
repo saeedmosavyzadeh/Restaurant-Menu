@@ -146,3 +146,7 @@ jdp-container .jdp-btn-today,
 jdp-container .jdp-days .jdp-day.selected {
   background: #1d497e !important;
 }
+
+.pointer {
+  cursor: pointer;
+}
