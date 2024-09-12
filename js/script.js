@@ -119,7 +119,7 @@ if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
             detailImage.src = item.image;
             detailTitle.textContent = item.name;
             detailText.textContent = item.detail;
-            detailPrice.textContent = item.price;
+            detailPrice.textContent = item.price + " تومان";
             detailType.textContent = item.type;
           }
         }
@@ -136,6 +136,10 @@ if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
         "</div>";
     },
   });
+}
+
+if (location.pathname.split("/").slice(-1)[0] == "breakfast-menu.html") {
+  getData("صبحانه");
 }
 
 pizzas.forEach((ele) => {
@@ -174,8 +178,10 @@ function getData(sort) {
     async: true,
     beforeSend: function () {
       menu.classList.replace("p-3", "p-2");
-      itemsContainer.classList.remove("d-none");
-      subContainer.style.display = "none";
+      if (itemsContainer != null && subContainer != null) {
+        itemsContainer.classList.remove("d-none");
+        subContainer.style.display = "none";
+      }
       loading.classList.remove("d-none");
     },
     dataType: "json",
