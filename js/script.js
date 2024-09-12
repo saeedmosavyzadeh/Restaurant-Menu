@@ -196,7 +196,7 @@ function getData(sort) {
               '<div class="imagecontainer card-img-top">' +
               '<img src="' +
               item.image +
-              '" class="" draggable="false" onerror="this.onerror=null; this.src=\'../assets/404.jpg\'" alt="main">' +
+              '" class="" draggable="false" onerror="this.onerror=null; this.src=\'../assets/404.jpg\'">' +
               "</div>" +
               '<div class="card-body">' +
               '<h5 class="card-title bold text-truncate">' +
