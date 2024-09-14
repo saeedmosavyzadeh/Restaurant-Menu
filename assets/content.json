@@ -1,6 +1,14 @@
 {
     "items": [
         { 
+            "name":"" ,
+            "detail":"" ,
+            "price":"12000" , 
+            "type":"صبحانه" ,
+            "image":"./assets/berger.jpg",
+            "offer" : 0 },
+
+        { 
             "name":"صبحانه نمونه" ,
             "detail":"" ,
             "price":"12000" , 
