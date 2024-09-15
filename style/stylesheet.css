@@ -23,6 +23,10 @@
   src: url(../assets/MaterialSymbolsRounded.woff2) format("woff");
 }
 
+i.material-icons:before {
+  display: none;
+}
+
 .material-symbols-rounded {
   font-family: "Material Symbols Rounded";
   font-weight: normal;
