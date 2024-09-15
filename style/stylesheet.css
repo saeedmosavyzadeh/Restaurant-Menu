@@ -150,3 +150,15 @@ jdp-container .jdp-days .jdp-day.selected {
 .pointer {
   cursor: pointer;
 }
+
+.pcolorb {
+  background-color: #027b42;
+}
+
+.pcolort {
+  color: #027b42;
+}
+
+.nounder {
+  text-decoration: none;
+}
