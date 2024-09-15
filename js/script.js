@@ -133,6 +133,9 @@ if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
           if (item.offer == 1) {
             offerExist = 1;
             detailImage.src = item.image;
+            detailImage.onerror = function () {
+              detailImage.src = "./assets/images/slide1.jpg";
+            };
             detailTitle.textContent = item.name;
             detailText.textContent = item.detail;
             detailPrice.textContent = item.price + " تومان";

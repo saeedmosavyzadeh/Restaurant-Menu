@@ -19,12 +19,7 @@
 @font-face {
   font-family: "Material Symbols Rounded";
   font-style: normal;
-  font-display: block;
   src: url(../assets/MaterialSymbolsRounded.woff2) format("woff");
-}
-
-i.material-icons:before {
-  display: none;
 }
 
 .fs7 {
