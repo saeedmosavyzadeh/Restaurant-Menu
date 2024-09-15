@@ -104,6 +104,7 @@ if (videoBtn != null) {
 }
 
 if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
+  var offerExist = 0;
   $.ajax({
     type: "GET",
     url: "./assets/content.json",
@@ -116,11 +117,12 @@ if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
           detail.classList.remove("d-none");
           var item = val[i];
           if (item.offer == 1) {
+            offerExist = 1;
             detailImage.src = item.image;
             detailTitle.textContent = item.name;
             detailText.textContent = item.detail;
             detailPrice.textContent = item.price + " تومان";
-            detailType.textContent = item.type;
+            detailType.textContent = "دسته : " + item.type;
           }
         }
       });
@@ -129,11 +131,19 @@ if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
       loading.classList.add("d-none");
       detail.classList.remove("d-none");
       detail.innerHTML =
-        "<div class='text-center'>" +
+        "<div class='text-center py-3'>" +
         "خطایی رخ داده است!" +
         "<br>" +
         "لطفا اینترنت خود را چک کنید." +
         "</div>";
+    },
+    complete: function () {
+      if (offerExist == 0) {
+        detail.innerHTML =
+          "<div class='text-center py-3'>" +
+          "فعلا غذایی به غذای پیشنهادی امروز اضافه نشده" +
+          "</div>";
+      }
     },
   });
 }

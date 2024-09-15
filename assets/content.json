@@ -1,57 +1,140 @@
 {
-    "items": [
-        { 
-            "name":"" ,
-            "detail":"" ,
-            "price":"12000" , 
-            "type":"صبحانه" ,
-            "image":"./assets/berger.jpg",
-            "offer" : 0 },
-
-        { 
-            "name":"صبحانه نمونه" ,
-            "detail":"" ,
-            "price":"12000" , 
-            "type":"صبحانه" ,
-            "image":"./assets/berger.jpg",
-            "offer" : 0 },
-        { 
-            "name":"همبرگر" ,
-            "detail":"" ,
-            "price":"120000" , 
-            "type":"برگر" ,
-            "image":"./assets/berger.jpg",
-            "offer" : 0 }, 
-    
-        { 
-                "name":"پیتزا" ,
-                "detail":"" ,
-                "price":"89000" , 
-                "type":"پیتزا" ,
-                "image":"./assets/pizza.jpg",
-                "offer" : 1  }, 
-    
-        { 
-                    "name":"همبرگر سلطانی" ,
-                    "detail":"" ,
-                    "price":"2300000" ,
-                    "type":"برگر" , 
-                    "image":"./assets/berger.jpg",
-                    "offer" : 0  },   
-    
-                        { 
-                            "name":"کاسیب غذاسی" ,
-                            "detail":"" ,
-                            "price":"1" , 
-                            "type":"برگر" ,
-                            "image":"./assets/berger.jpg",
-                            "offer" : 0  } ,
-                            { 
-                                "name":"کاسیب ایچگی سی" ,
-                                "detail":"" ,
-                                "price":"10" , 
-                                "type":"نوشیدنی" ,
-                                "image":"./assets/drink.jpg",
-                                "offer" : 0  }
-        ]
+  "items": [
+    {
+      "name": "املت",
+      "detail": "",
+      "price": "135",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "نیمرو",
+      "detail": "",
+      "price": "97",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "املت سوجوک",
+      "detail": "",
+      "price": "185",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "نیمرو سوجوک",
+      "detail": "",
+      "price": "147",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قیساوا",
+      "detail": "",
+      "price": "195",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "نرگسی",
+      "detail": "",
+      "price": "177",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "اسکرامبل مخصوص",
+      "detail": "",
+      "price": "179",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "تست سوجوک",
+      "detail": "",
+      "price": "277",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "پن کیک",
+      "detail": "",
+      "price": "327",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب تبریز (2 نفره)",
+      "detail": "",
+      "price": "297",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب رژیمی",
+      "detail": "",
+      "price": "295",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب پروتئین",
+      "detail": "",
+      "price": "437",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 1
+    },
+    {
+      "name": "بشقاب انگلیسی",
+      "detail": "",
+      "price": "295",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 1
+    },
+    {
+      "name": "بشقاب سرآشپز",
+      "detail": "",
+      "price": "420",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "میز آلفا (6 نفره)",
+      "detail": "",
+      "price": "1,179",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چای دمی سیاه",
+      "detail": "با شارژ نامحدود",
+      "price": "43",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "آب میوه طبیعی فصل",
+      "detail": "",
+      "price": "117",
+      "type": "صبحانه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
     }
+  ]
+}
