@@ -28,7 +28,7 @@
                                 </span>
 
                                 <a class="navbar-brand bold" href="#">
-                                    منو رستوران آلفا
+                                    منوی رستوران آلفا
                                 </a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -53,21 +53,48 @@
                         <div id="menu" class="card-body p-3">
                             <div id="sub-container">
                                 <div class="d-grid">
-                                    <button id="pizzas" type='button' class='btn'>
+                                    <button id="mainmeal" type='button' class='btn'>
+                                        <div class="card imagecontainer darken">
+                                            <img src="./assets/burger.jpg" class="card-img">
+                                            <div
+                                                class="card-img-overlay d-flex align-items-center justify-content-center">
+                                                <h1 class="card-title bold text-white">غذای اصلی</h1>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <button id="specialmeal" type='button' class='btn'>
+                                        <div class="card imagecontainer darken">
+                                            <img src="./assets/burger.jpg" class="card-img">
+                                            <div
+                                                class="card-img-overlay d-flex align-items-center justify-content-center">
+                                                <h1 class="card-title bold text-white">غذای مخصوص</h1>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <button id="burgers" type='button' class='btn'>
+                                        <div class="card imagecontainer darken">
+                                            <img src="./assets/burger.jpg" class="card-img">
+                                            <div
+                                                class="card-img-overlay d-flex align-items-center justify-content-center">
+                                                <h1 class="card-title bold text-white">برگر</h1>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <button id="appetizer" type='button' class='btn'>
                                         <div class="card imagecontainer darken">
                                             <img src="./assets/pizza.jpg" class="card-img">
                                             <div
                                                 class="card-img-overlay d-flex align-items-center justify-content-center">
-                                                <h1 class="card-title bold text-white">پیتزا</h1>
+                                                <h1 class="card-title bold text-white">پیش غذا و سالاد</h1>
                                             </div>
                                         </div>
                                     </button>
-                                    <button id="bergers" type='button' class='btn'>
+                                    <button id="pasta" type='button' class='btn'>
                                         <div class="card imagecontainer darken">
-                                            <img src="./assets/berger.jpg" class="card-img">
+                                            <img src="./assets/burger.jpg" class="card-img">
                                             <div
                                                 class="card-img-overlay d-flex align-items-center justify-content-center">
-                                                <h1 class="card-title bold text-white">برگر</h1>
+                                                <h1 class="card-title bold text-white">پاستا</h1>
                                             </div>
                                         </div>
                                     </button>
@@ -90,22 +117,50 @@
                                     </div>
                                     <div class="col-3 d-flex flex-column px-1">
 
-                                        <button id="pizzas-sub" type='button' class='btn sb-menu'>
+
+                                        <button id="mainmeal-sub" type='button' class='btn sb-menu'>
                                             <span class="material-symbols-rounded d-block">
-                                                local_pizza
+                                                restaurant
                                             </span>
-                                            پیتزا
+                                            غذای اصلی
                                         </button>
 
                                         <hr>
 
-                                        <button id="bergers-sub" type='button' class='btn sb-menu'>
+                                        <button id="specialmeal-sub" type='button' class='btn sb-menu'>
+                                            <span class="material-symbols-rounded d-block">
+                                                local_dining
+                                            </span>
+                                            غذای مخصوص
+                                        </button>
+
+                                        <hr>
+
+                                        <button id="burgers-sub" type='button' class='btn sb-menu'>
                                             <span class="material-symbols-rounded d-block">
                                                 lunch_dining
                                             </span>
                                             برگر
                                         </button>
 
+                                        <hr>
+
+                                        <button id="appetizer-sub" type='button' class='btn sb-menu'>
+                                            <span class="material-symbols-rounded d-block">
+                                                grocery
+                                            </span>
+                                            پیش غذا
+                                        </button>
+
+                                        <hr>
+
+
+                                        <button id="pasta-sub" type='button' class='btn sb-menu'>
+                                            <span class="material-symbols-rounded d-block">
+                                                dinner_dining
+                                            </span>
+                                            پاستا
+                                        </button>
 
                                     </div>
                                 </div>
@@ -135,7 +190,7 @@
                         <div class="card-footer py-3 border-0">
                             <div class="text-center">
                                 توسعه دهنده
-                                <a href="https://saeedmosavyzadeh.ir">سعید موسوی زاده</a>
+                                <a class="text-success nounder" href="https://saeedmosavyzadeh.ir">سعید موسوی زاده</a>
                             </div>
                         </div>
                     </div>

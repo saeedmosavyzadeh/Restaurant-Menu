@@ -135,6 +135,614 @@
       "type": "صبحانه",
       "image": "./assets/pizza.jpg",
       "offer": 0
+    },
+    {
+      "name": "فرایز",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "وایت فرایز",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "اسپشیال فرایز",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "اسپایسی فرایز",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چیکن سزار",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "گرین بیف",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "اسپاناک",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "سالاد مدیترانه ای",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "شریمپ کاپ",
+      "detail": "",
+      "price": "0",
+      "type": "پیش غذا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "کلاسیک برگر",
+      "detail": "",
+      "price": "0",
+      "type": "برگر",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چیکن برگر",
+      "detail": "",
+      "price": "0",
+      "type": "برگر",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "ماشروم برگر",
+      "detail": "",
+      "price": "0",
+      "type": "برگر",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بیکن برگر",
+      "detail": "",
+      "price": "0",
+      "type": "برگر",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چوریتسو برگر",
+      "detail": "",
+      "price": "0",
+      "type": "برگر",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "دنده برگر",
+      "detail": "",
+      "price": "0",
+      "type": "برگر",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چیکن آلفردو",
+      "detail": "",
+      "price": "0",
+      "type": "پاستا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بیف آلفردو",
+      "detail": "",
+      "price": "0",
+      "type": "پاستا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چیکن پستو",
+      "detail": "",
+      "price": "0",
+      "type": "پاستا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "پستو شریمپ",
+      "detail": "",
+      "price": "0",
+      "type": "پاستا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بلو نیز",
+      "detail": "",
+      "price": "0",
+      "type": "پاستا",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "ماهیچه",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چیکن استیک",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "استیک سیاه و سفید",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "استیک مینیون",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "فیله مرغ تریاکی",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "فیله مرغ کاری",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب مرغ گریل",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب میکس گریل",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب گوشت گریل",
+      "detail": "",
+      "price": "0",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "لازانیا",
+      "detail": "",
+      "price": "0",
+      "type": "غذای مخصوص",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قورمه سبزی",
+      "detail": "",
+      "price": "0",
+      "type": "غذای مخصوص",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب آلفا",
+      "detail": "",
+      "price": "0",
+      "type": "غذای مخصوص",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "هات داگ مخصوص",
+      "detail": "",
+      "price": "0",
+      "type": "غذای مخصوص",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "موز-توت فرنگی",
+      "detail": "",
+      "price": "0",
+      "type": "اسموتی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "گرین گاردن",
+      "detail": "",
+      "price": "0",
+      "type": "اسموتی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "پرتال",
+      "detail": "",
+      "price": "0",
+      "type": "اسموتی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "انتخابی بارتندر",
+      "detail": "",
+      "price": "0",
+      "type": "اسموتی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قهوه دمی",
+      "detail": "",
+      "price": "0",
+      "type": "قهوه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قهوه ترک",
+      "detail": "",
+      "price": "0",
+      "type": "قهوه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "کلد برو",
+      "detail": "",
+      "price": "0",
+      "type": "قهوه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قهوه دمی ایرو-وی 60",
+      "detail": "",
+      "price": "0",
+      "type": "قهوه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "هات چاکلت",
+      "detail": "",
+      "price": "0",
+      "type": "هات چاکلت",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "ماسالا",
+      "detail": "",
+      "price": "0",
+      "type": "هات چاکلت",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "هات پسته",
+      "detail": "",
+      "price": "0",
+      "type": "هات چاکلت",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "هات چری",
+      "detail": "",
+      "price": "0",
+      "type": "هات چاکلت",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "انتخابی باریستا",
+      "detail": "",
+      "price": "0",
+      "type": "هات چاکلت",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "هات مانگو جینجر",
+      "detail": "",
+      "price": "0",
+      "type": "هات چاکلت",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "اسپرسو ترکیبی",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "اسپرسو عربیکا",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "آمریکانو",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "لاته",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "کاپوچبنو",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "کارامل ماکیاتو",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "موکا",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "آفوگاتو",
+      "detail": "",
+      "price": "0",
+      "type": "اسپرسو",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چای سیاه",
+      "detail": "",
+      "price": "0",
+      "type": "چای",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "دمنوش هشت بهشت",
+      "detail": "",
+      "price": "0",
+      "type": "چای",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "چای سبز",
+      "detail": "",
+      "price": "0",
+      "type": "چای",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "دمنوش آرامبخش",
+      "detail": "",
+      "price": "0",
+      "type": "چای",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "دمنوش گل گاوزبان",
+      "detail": "",
+      "price": "0",
+      "type": "چای",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "دمنوش انتخابی",
+      "detail": "",
+      "price": "0",
+      "type": "چای",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "موهیتو",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "موهیتو برزیلی",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "لیموناد",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "لیموناد جینجر",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "نارنیا",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "آلفا سیگنچر",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "رد اسپایس",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "ماکتل بارتندر",
+      "detail": "",
+      "price": "0",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "شیک شکلات",
+      "detail": "",
+      "price": "0",
+      "type": "شیک",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "شیک بادام زمینی",
+      "detail": "",
+      "price": "0",
+      "type": "شیک",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "شیک توت فرنگی",
+      "detail": "",
+      "price": "0",
+      "type": "شیک",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "شیک لوتوس",
+      "detail": "",
+      "price": "0",
+      "type": "شیک",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "شیک قهوه",
+      "detail": "",
+      "price": "0",
+      "type": "شیک",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "شیک بارتندر",
+      "detail": "",
+      "price": "0",
+      "type": "شیک",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "پانجار",
+      "detail": "",
+      "price": "0",
+      "type": "شیک",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
     }
   ]
 }

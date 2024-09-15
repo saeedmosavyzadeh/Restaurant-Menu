@@ -8,8 +8,22 @@ const detailPrice = document.getElementById("detail-price");
 const detailType = document.getElementById("detail-type");
 const videoBtn = document.getElementById("video");
 const backToMainBtn = document.getElementById("back-to-main");
-const pizzas = document.querySelectorAll("#pizzas, #pizzas-sub");
-const bergers = document.querySelectorAll("#bergers, #bergers-sub");
+const appetizer = document.querySelectorAll("#appetizer, #appetizer-sub");
+const burgers = document.querySelectorAll("#burgers, #burgers-sub");
+const pasta = document.querySelectorAll("#pasta, #pasta-sub");
+const mainmeal = document.querySelectorAll("#mainmeal, #mainmeal-sub");
+const specialmeal = document.querySelectorAll("#specialmeal, #specialmeal-sub");
+
+const smooties = document.querySelectorAll("#smooties, #smooties-sub");
+const coffees = document.querySelectorAll("#coffees, #coffees-sub");
+const hotchocolates = document.querySelectorAll(
+  "#hotchocolates, #hotchocolates-sub"
+);
+const espressos = document.querySelectorAll("#espressos, #espressos-sub");
+const tees = document.querySelectorAll("#tees, #tees-sub");
+const mocktels = document.querySelectorAll("#mocktels, #mocktels-sub");
+const shakes = document.querySelectorAll("#shakes, #shakes-sub");
+
 const loading = document.getElementById("loading");
 const subContainer = document.getElementById("sub-container");
 const itemsContainer = document.getElementById("items-container");
@@ -152,29 +166,169 @@ if (location.pathname.split("/").slice(-1)[0] == "breakfast-menu.html") {
   getData("صبحانه");
 }
 
-pizzas.forEach((ele) => {
+appetizer.forEach((ele) => {
   ele.addEventListener(
     "click",
     function () {
       sbMenu.forEach((ele) => {
         ele.classList.remove("bg-success");
       });
-      pizzas[1].classList.add("bg-success");
-      getData("پیتزا");
+      appetizer[1].classList.add("bg-success");
+      getData("پیش غذا");
     },
     false
   );
 });
 
-bergers.forEach((ele) => {
+burgers.forEach((ele) => {
   ele.addEventListener(
     "click",
     function () {
       sbMenu.forEach((ele) => {
         ele.classList.remove("bg-success");
       });
-      bergers[1].classList.add("bg-success");
+      burgers[1].classList.add("bg-success");
       getData("برگر");
+    },
+    false
+  );
+});
+
+pasta.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      pasta[1].classList.add("bg-success");
+      getData("پاستا");
+    },
+    false
+  );
+});
+
+mainmeal.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      mainmeal[1].classList.add("bg-success");
+      getData("غذای اصلی");
+    },
+    false
+  );
+});
+
+specialmeal.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      specialmeal[1].classList.add("bg-success");
+      getData("غذای مخصوص");
+    },
+    false
+  );
+});
+
+smooties.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      smooties[1].classList.add("bg-success");
+      getData("اسموتی");
+    },
+    false
+  );
+});
+
+coffees.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      coffees[1].classList.add("bg-success");
+      getData("قهوه");
+    },
+    false
+  );
+});
+
+hotchocolates.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      hotchocolates[1].classList.add("bg-success");
+      getData("هات چاکلت");
+    },
+    false
+  );
+});
+
+espressos.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      espressos[1].classList.add("bg-success");
+      getData("اسپرسو");
+    },
+    false
+  );
+});
+
+tees.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      tees[1].classList.add("bg-success");
+      getData("چای");
+    },
+    false
+  );
+});
+
+mocktels.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      mocktels[1].classList.add("bg-success");
+      getData("ماکتل");
+    },
+    false
+  );
+});
+
+shakes.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      shakes[1].classList.add("bg-success");
+      getData("شیک");
     },
     false
   );
