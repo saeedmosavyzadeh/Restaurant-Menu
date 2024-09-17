@@ -137,33 +137,33 @@
       "offer": 0
     },
     {
-      "name": "فرایز",
+      "name": "سیب زمینی سرخ کرده",
       "detail": "",
-      "price": "0",
+      "price": "97",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "وایت فرایز",
+      "name": "ماشاپیتو",
       "detail": "",
-      "price": "0",
+      "price": "157",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "اسپشیال فرایز",
+      "name": "پوتاتیتو",
       "detail": "",
-      "price": "0",
+      "price": "177",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "اسپایسی فرایز",
+      "name": "سیب زمینی پنیری تند (اسپایسی)",
       "detail": "",
-      "price": "0",
+      "price": "177",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -171,7 +171,7 @@
     {
       "name": "چیکن سزار",
       "detail": "",
-      "price": "0",
+      "price": "279",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -179,7 +179,7 @@
     {
       "name": "گرین بیف",
       "detail": "",
-      "price": "0",
+      "price": "377",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -187,15 +187,7 @@
     {
       "name": "اسپاناک",
       "detail": "",
-      "price": "0",
-      "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "سالاد مدیترانه ای",
-      "detail": "",
-      "price": "0",
+      "price": "319",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -203,7 +195,7 @@
     {
       "name": "شریمپ کاپ",
       "detail": "",
-      "price": "0",
+      "price": "237",
       "type": "پیش غذا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -211,7 +203,7 @@
     {
       "name": "کلاسیک برگر",
       "detail": "",
-      "price": "0",
+      "price": "287",
       "type": "برگر",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -219,7 +211,7 @@
     {
       "name": "چیکن برگر",
       "detail": "",
-      "price": "0",
+      "price": "247",
       "type": "برگر",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -227,7 +219,7 @@
     {
       "name": "ماشروم برگر",
       "detail": "",
-      "price": "0",
+      "price": "297",
       "type": "برگر",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -235,7 +227,7 @@
     {
       "name": "بیکن برگر",
       "detail": "",
-      "price": "0",
+      "price": "339",
       "type": "برگر",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -243,7 +235,7 @@
     {
       "name": "چوریتسو برگر",
       "detail": "",
-      "price": "0",
+      "price": "365",
       "type": "برگر",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -251,7 +243,7 @@
     {
       "name": "دنده برگر",
       "detail": "",
-      "price": "0",
+      "price": "487",
       "type": "برگر",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -259,7 +251,7 @@
     {
       "name": "چیکن آلفردو",
       "detail": "",
-      "price": "0",
+      "price": "263",
       "type": "پاستا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -267,7 +259,7 @@
     {
       "name": "بیف آلفردو",
       "detail": "",
-      "price": "0",
+      "price": "347",
       "type": "پاستا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -275,7 +267,7 @@
     {
       "name": "چیکن پستو",
       "detail": "",
-      "price": "0",
+      "price": "297",
       "type": "پاستا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -283,7 +275,7 @@
     {
       "name": "پستو شریمپ",
       "detail": "",
-      "price": "0",
+      "price": "367",
       "type": "پاستا",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -291,15 +283,15 @@
     {
       "name": "بلو نیز",
       "detail": "",
-      "price": "0",
+      "price": "287",
       "type": "پاستا",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "ماهیچه",
-      "detail": "",
-      "price": "0",
+      "name": "ماهیچه مخصوص آلفا",
+      "detail": "فروش در روز های خاص",
+      "price": "670",
       "type": "غذای اصلی",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -307,63 +299,7 @@
     {
       "name": "چیکن استیک",
       "detail": "",
-      "price": "0",
-      "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "استیک سیاه و سفید",
-      "detail": "",
-      "price": "0",
-      "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "استیک مینیون",
-      "detail": "",
-      "price": "0",
-      "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "فیله مرغ تریاکی",
-      "detail": "",
-      "price": "0",
-      "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "فیله مرغ کاری",
-      "detail": "",
-      "price": "0",
-      "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "بشقاب مرغ گریل",
-      "detail": "",
-      "price": "0",
-      "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "بشقاب میکس گریل",
-      "detail": "",
-      "price": "0",
-      "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "بشقاب گوشت گریل",
-      "detail": "",
-      "price": "0",
+      "price": "477",
       "type": "غذای اصلی",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -371,55 +307,103 @@
     {
       "name": "لازانیا",
       "detail": "",
-      "price": "0",
+      "price": "395",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قورمه گوشت مخصوص آلفا",
+      "detail": "",
+      "price": "379",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قورمه مرغ مخصوص آلفا",
+      "detail": "",
+      "price": "293",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "قورمه میکس مخصوص آلفا",
+      "detail": "",
+      "price": "327",
+      "type": "غذای اصلی",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب گوشت گریل",
+      "detail": "",
+      "price": "473",
       "type": "غذای مخصوص",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "قورمه سبزی",
+      "name": "بشقاب مرغ گریل",
       "detail": "",
-      "price": "0",
+      "price": "357",
       "type": "غذای مخصوص",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "بشقاب آلفا",
+      "name": "بشقاب میکس گریل",
       "detail": "",
-      "price": "0",
+      "price": "427",
       "type": "غذای مخصوص",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "هات داگ مخصوص",
+      "name": "بشقاب مرغ کاری",
       "detail": "",
-      "price": "0",
+      "price": "377",
       "type": "غذای مخصوص",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "موز-توت فرنگی",
+      "name": "بشقاب مرغ تری یاکی",
       "detail": "",
-      "price": "0",
+      "price": "383",
+      "type": "غذای مخصوص",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب مخصوص آلفا",
+      "detail": "",
+      "price": "337",
+      "type": "غذای مخصوص",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "بشقاب مخصوص سرآشپز",
+      "detail": "",
+      "price": "650",
+      "type": "غذای مخصوص",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "اسموتی موز و توت فرنگی",
+      "detail": "",
+      "price": "217",
       "type": "اسموتی",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "گرین گاردن",
+      "name": "اسموتی گرین گاردن",
       "detail": "",
-      "price": "0",
-      "type": "اسموتی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "پرتال",
-      "detail": "",
-      "price": "0",
+      "price": "193",
       "type": "اسموتی",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -427,159 +411,151 @@
     {
       "name": "انتخابی بارتندر",
       "detail": "",
-      "price": "0",
+      "price": "226",
       "type": "اسموتی",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "قهوه دمی",
-      "detail": "",
-      "price": "0",
-      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "قهوه ترک",
       "detail": "",
-      "price": "0",
-      "type": "قهوه",
+      "price": "72",
+      "type": "قهوه دمی",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "کلد برو",
       "detail": "",
-      "price": "0",
-      "type": "قهوه",
+      "price": "176",
+      "type": "قهوه دمی",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "قهوه دمی ایرو-وی 60",
+      "name": "قهوه دمی (ایرو یا وی60)",
       "detail": "",
-      "price": "0",
-      "type": "قهوه",
+      "price": "207",
+      "type": "قهوه دمی",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "هات چاکلت",
       "detail": "",
-      "price": "0",
-      "type": "هات چاکلت",
+      "price": "127",
+      "type": "نوشیدنی گرم",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "ماسالا",
       "detail": "",
-      "price": "0",
-      "type": "هات چاکلت",
+      "price": "119",
+      "type": "نوشیدنی گرم",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "هات پسته",
       "detail": "",
-      "price": "0",
-      "type": "هات چاکلت",
+      "price": "139",
+      "type": "نوشیدنی گرم",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "هات چری",
       "detail": "",
-      "price": "0",
-      "type": "هات چاکلت",
-      "image": "./assets/pizza.jpg",
-      "offer": 0
-    },
-    {
-      "name": "انتخابی باریستا",
-      "detail": "",
-      "price": "0",
-      "type": "هات چاکلت",
+      "price": "157",
+      "type": "نوشیدنی گرم",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "هات مانگو جینجر",
       "detail": "",
-      "price": "0",
-      "type": "هات چاکلت",
+      "price": "157",
+      "type": "نوشیدنی گرم",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "اسپرسو ترکیبی",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "67",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "اسپرسو عربیکا",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "85",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "آمریکانو",
+      "name": "آمریکانو ترکیبی",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "67",
+      "type": "قهوه",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "آمریکانو عربیکا",
+      "detail": "",
+      "price": "85",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "لاته",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "93",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "کاپوچبنو",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "93",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "کارامل ماکیاتو",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "117",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "موکا",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "109",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "آفوگاتو",
       "detail": "",
-      "price": "0",
-      "type": "اسپرسو",
+      "price": "127",
+      "type": "قهوه",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "چای سیاه",
+      "name": "چای سیاه دمی",
       "detail": "",
-      "price": "0",
+      "price": "47",
       "type": "چای",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -587,7 +563,7 @@
     {
       "name": "دمنوش هشت بهشت",
       "detail": "",
-      "price": "0",
+      "price": "93",
       "type": "چای",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -595,7 +571,7 @@
     {
       "name": "چای سبز",
       "detail": "",
-      "price": "0",
+      "price": "127",
       "type": "چای",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -603,31 +579,47 @@
     {
       "name": "دمنوش آرامبخش",
       "detail": "",
-      "price": "0",
+      "price": "87",
       "type": "چای",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "دمنوش گل گاوزبان",
+      "name": "دمنوش باریستا",
       "detail": "",
-      "price": "0",
+      "price": "147",
       "type": "چای",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
-      "name": "دمنوش انتخابی",
+      "name": "کیک روز",
       "detail": "",
-      "price": "0",
-      "type": "چای",
+      "price": "از ما بپرسید",
+      "type": "کیک و دسر",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "باقلوا",
+      "detail": "",
+      "price": "از ما بپرسید",
+      "type": "کیک و دسر",
       "image": "./assets/pizza.jpg",
       "offer": 0
     },
     {
       "name": "موهیتو",
       "detail": "",
-      "price": "0",
+      "price": "117",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "رد موهیتو",
+      "detail": "",
+      "price": "127",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -635,7 +627,7 @@
     {
       "name": "موهیتو برزیلی",
       "detail": "",
-      "price": "0",
+      "price": "143",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -643,7 +635,7 @@
     {
       "name": "لیموناد",
       "detail": "",
-      "price": "0",
+      "price": "97",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -651,7 +643,7 @@
     {
       "name": "لیموناد جینجر",
       "detail": "",
-      "price": "0",
+      "price": "113",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -659,7 +651,7 @@
     {
       "name": "نارنیا",
       "detail": "",
-      "price": "0",
+      "price": "169",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -667,7 +659,7 @@
     {
       "name": "آلفا سیگنچر",
       "detail": "",
-      "price": "0",
+      "price": "197",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -675,7 +667,15 @@
     {
       "name": "رد اسپایس",
       "detail": "",
-      "price": "0",
+      "price": "132",
+      "type": "ماکتل",
+      "image": "./assets/pizza.jpg",
+      "offer": 0
+    },
+    {
+      "name": "پرتال",
+      "detail": "",
+      "price": "193",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -683,7 +683,7 @@
     {
       "name": "ماکتل بارتندر",
       "detail": "",
-      "price": "0",
+      "price": "207",
       "type": "ماکتل",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -691,7 +691,7 @@
     {
       "name": "شیک شکلات",
       "detail": "",
-      "price": "0",
+      "price": "217",
       "type": "شیک",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -699,7 +699,7 @@
     {
       "name": "شیک بادام زمینی",
       "detail": "",
-      "price": "0",
+      "price": "227",
       "type": "شیک",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -707,7 +707,7 @@
     {
       "name": "شیک توت فرنگی",
       "detail": "",
-      "price": "0",
+      "price": "213",
       "type": "شیک",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -715,7 +715,7 @@
     {
       "name": "شیک لوتوس",
       "detail": "",
-      "price": "0",
+      "price": "207",
       "type": "شیک",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -723,7 +723,7 @@
     {
       "name": "شیک قهوه",
       "detail": "",
-      "price": "0",
+      "price": "193",
       "type": "شیک",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -731,7 +731,7 @@
     {
       "name": "شیک بارتندر",
       "detail": "",
-      "price": "0",
+      "price": "256",
       "type": "شیک",
       "image": "./assets/pizza.jpg",
       "offer": 0
@@ -739,7 +739,7 @@
     {
       "name": "پانجار",
       "detail": "",
-      "price": "0",
+      "price": "217",
       "type": "شیک",
       "image": "./assets/pizza.jpg",
       "offer": 0

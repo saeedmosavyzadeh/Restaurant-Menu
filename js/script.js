@@ -15,15 +15,13 @@ const mainmeal = document.querySelectorAll("#mainmeal, #mainmeal-sub");
 const specialmeal = document.querySelectorAll("#specialmeal, #specialmeal-sub");
 
 const smooties = document.querySelectorAll("#smooties, #smooties-sub");
+const dripcoffees = document.querySelectorAll("#dripcoffees, #dripcoffees-sub");
+const hotdrinks = document.querySelectorAll("#hotdrinks, #hotdrinks-sub");
 const coffees = document.querySelectorAll("#coffees, #coffees-sub");
-const hotchocolates = document.querySelectorAll(
-  "#hotchocolates, #hotchocolates-sub"
-);
-const espressos = document.querySelectorAll("#espressos, #espressos-sub");
 const tees = document.querySelectorAll("#tees, #tees-sub");
 const mocktels = document.querySelectorAll("#mocktels, #mocktels-sub");
 const shakes = document.querySelectorAll("#shakes, #shakes-sub");
-
+const cakes = document.querySelectorAll("#cakes, #cakes-sub");
 const loading = document.getElementById("loading");
 const subContainer = document.getElementById("sub-container");
 const itemsContainer = document.getElementById("items-container");
@@ -136,9 +134,13 @@ if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
             detailImage.onerror = function () {
               detailImage.src = "./assets/images/slide1.jpg";
             };
+            var isnumb = "";
+            if (/\d/.test(item.price)) {
+              isnumb = " تومان";
+            }
             detailTitle.textContent = item.name;
             detailText.textContent = item.detail;
-            detailPrice.textContent = item.price + " تومان";
+            detailPrice.textContent = item.price + isnumb;
             detailType.textContent = "دسته : " + item.type;
           }
         }
@@ -267,29 +269,29 @@ coffees.forEach((ele) => {
   );
 });
 
-hotchocolates.forEach((ele) => {
+hotdrinks.forEach((ele) => {
   ele.addEventListener(
     "click",
     function () {
       sbMenu.forEach((ele) => {
         ele.classList.remove("bg-success");
       });
-      hotchocolates[1].classList.add("bg-success");
-      getData("هات چاکلت");
+      hotdrinks[1].classList.add("bg-success");
+      getData("نوشیدنی گرم");
     },
     false
   );
 });
 
-espressos.forEach((ele) => {
+dripcoffees.forEach((ele) => {
   ele.addEventListener(
     "click",
     function () {
       sbMenu.forEach((ele) => {
         ele.classList.remove("bg-success");
       });
-      espressos[1].classList.add("bg-success");
-      getData("اسپرسو");
+      dripcoffees[1].classList.add("bg-success");
+      getData("قهوه دمی");
     },
     false
   );
@@ -337,6 +339,20 @@ shakes.forEach((ele) => {
   );
 });
 
+cakes.forEach((ele) => {
+  ele.addEventListener(
+    "click",
+    function () {
+      sbMenu.forEach((ele) => {
+        ele.classList.remove("bg-success");
+      });
+      cakes[1].classList.add("bg-success");
+      getData("کیک و دسر");
+    },
+    false
+  );
+});
+
 function getData(sort) {
   items.innerHTML = "";
   $.ajax({
@@ -358,6 +374,10 @@ function getData(sort) {
           loading.classList.add("d-none");
           var item = val[i];
           if (item.type == sort) {
+            var isnumb = "";
+            if (/\d/.test(item.price)) {
+              isnumb = " تومان";
+            }
             items.innerHTML +=
               "<div role='button' class='my-card card mb-3' onclick='menu.classList.add(\"d-none\"); detail.classList.remove(\"d-none\"); detailImage.src = this.childNodes[0].childNodes[0].src; detailTitle.textContent = this.childNodes[1].childNodes[0].textContent; detailText.textContent = this.childNodes[1].childNodes[1].textContent; detailPrice.textContent = this.childNodes[1].childNodes[2].childNodes[1].textContent; detailType.textContent = this.childNodes[1].childNodes[2].childNodes[0].textContent;'>" +
               '<div class="imagecontainer card-img-top">' +
@@ -379,7 +399,7 @@ function getData(sort) {
               "</div>" +
               '<div class="text-success bold">' +
               item.price +
-              " تومان" +
+              isnumb +
               "</div>" +
               "</div>" +
               "</div>" +
@@ -387,6 +407,7 @@ function getData(sort) {
           }
         }
       });
+      window.scrollTo(0, 0);
     },
     error: function (XMLHttpRequest, textStatus, errorThrown) {
       loading.classList.add("d-none");
