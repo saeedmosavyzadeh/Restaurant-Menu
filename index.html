@@ -15,7 +15,12 @@
 </head>
 
 <body>
-    <section class="h-100 ">
+    <div id="loadingScreen"
+        class="row bg-body d-flex justify-content-center g-0 align-content-center h-100 w-100 position-absolute z-3">
+        <img class="p-4" src="./assets/alpha.png" draggable="false" width="200px">
+        <div class="spinner-border" role="status"></div>
+    </div>
+    <section id="main" class="h-100" style="display: none;">
         <div class="container h-100">
             <div class="row justify-content-sm-center h-100">
                 <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
