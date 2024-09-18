@@ -137,9 +137,9 @@ if (location.pathname.split("/").slice(-1)[0] == "todays-offer.html") {
           var item = val[i];
           if (item.offer == 1) {
             offerExist = 1;
-            detailImage.src = item.image;
+            detailImage.href = item.image;
             detailImage.onerror = function () {
-              detailImage.src = "./assets/images/slide1.jpg";
+              detailImage.href = "./assets/notfound.jpg";
             };
             var isnumb = "";
             if (/\d/.test(item.price)) {
@@ -386,11 +386,12 @@ function getData(sort) {
               isnumb = " تومان";
             }
             items.innerHTML +=
-              "<div role='button' class='my-card card mb-3' onclick='menu.classList.add(\"d-none\"); detail.classList.remove(\"d-none\"); detailImage.src = this.childNodes[0].childNodes[0].src; detailTitle.textContent = this.childNodes[1].childNodes[0].textContent; detailText.textContent = this.childNodes[1].childNodes[1].textContent; detailPrice.textContent = this.childNodes[1].childNodes[2].childNodes[1].textContent; detailType.textContent = this.childNodes[1].childNodes[2].childNodes[0].textContent;'>" +
+              "<div role='button' class='my-card card mb-3' onclick='menu.classList.add(\"d-none\"); detail.classList.remove(\"d-none\"); detailImage.src = this.childNodes[0].childNodes[0].href; detailTitle.textContent = this.childNodes[1].childNodes[0].textContent; detailText.textContent = this.childNodes[1].childNodes[1].textContent; detailPrice.textContent = this.childNodes[1].childNodes[2].childNodes[1].textContent; detailType.textContent = this.childNodes[1].childNodes[2].childNodes[0].textContent;'>" +
               '<div class="imagecontainer card-img-top">' +
-              '<img src="' +
+              '<a href="' +
               item.image +
-              '" class="" draggable="false" onerror="this.onerror=null; this.src=\'./assets/images/slide1.jpg\'">' +
+              '" class="progressive replace">' +
+              '<img src="./assets/notfound.jpg" draggable="false" class="preview" loading="lazy" onerror="this.onerror=null; this.src=\'./assets/notfound.jpg\'" /></a>' +
               "</div>" +
               '<div class="card-body">' +
               '<h5 class="card-title bold text-truncate">' +
@@ -428,11 +429,11 @@ function getData(sort) {
   });
 }
 
-if ($("img[data-enlargeable]") != null) {
-  $("img[data-enlargeable]")
+if ($("a[data-enlargeable]") != null) {
+  $("a[data-enlargeable]")
     .addClass("img-enlargeable")
     .click(function () {
-      var src = $(this).attr("src");
+      var src = $(this).attr("href");
       var modal;
 
       function removeModal() {

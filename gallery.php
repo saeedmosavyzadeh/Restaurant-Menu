@@ -8,6 +8,7 @@
     <meta name="theme-color" content="#027B42">
     <title>گالری آلفا</title>
     <link href="./style/bootstrap.css" rel="stylesheet">
+    <link href="./style/progressive-image.css" rel="stylesheet">
     <link href="./style/stylesheet.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
 </head>
@@ -61,7 +62,9 @@
                                 if (substr_compare($img, $ext, -strlen($ext), strlen($ext)) === 0) {
                             ?>
                                     <div class="gallerycontainer mb-1 card">
-                                        <img data-enlargeable style="cursor: zoom-in" src="assets/images/<?= $img ?>">
+                                        <a data-enlargeable href="assets/images/<?= $img ?>" class="progressive replace" style="cursor: zoom-in">
+                                            <img src="./assets/notfound.jpg" draggable="false" class="preview" loading="lazy" />
+                                        </a>
                                     </div>
                             <?php
                                 }
@@ -83,6 +86,7 @@
     </section>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/progressive-image.js"></script>
     <script src="./js/script.js"></script>
 </body>
 

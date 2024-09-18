@@ -8,6 +8,7 @@
     <meta name="theme-color" content="#027B42">
     <title>منوی کافه آلفا</title>
     <link href="./style/bootstrap.css" rel="stylesheet">
+    <link href="./style/progressive-image.css" rel="stylesheet">
     <link href="./style/stylesheet.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
 </head>
@@ -230,7 +231,8 @@
 
 
                         <div id="detail" class="d-none">
-                            <div class="imagecontainer"><img id="detail-image" draggable="false" class="" alt="main">
+                            <div class="imagecontainer"><img id="detail-image" draggable="false"
+                                    onerror="this.src='./assets/notfound.jpg'">
                             </div>
                             <div class="p-3">
                                 <h5 id="detail-title" class="bold"></h5>
@@ -259,6 +261,7 @@
     </section>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/progressive-image.js"></script>
     <script src="./js/script.js"></script>
 </body>
 

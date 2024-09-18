@@ -13,7 +13,7 @@
       "detail": "",
       "price": "97",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -101,7 +101,7 @@
       "detail": "",
       "price": "295",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "./assets/images/breakfast.jpg",
       "offer": 1
     },
     {
@@ -245,7 +245,7 @@
       "detail": "",
       "price": "487",
       "type": "برگر",
-      "image": "./assets/pizza.jpg",
+      "image": "./assets/images/menu.jpg",
       "offer": 0
     },
     {
@@ -549,7 +549,7 @@
       "detail": "",
       "price": "127",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "./assets/images/menu.jpg",
       "offer": 0
     },
     {
