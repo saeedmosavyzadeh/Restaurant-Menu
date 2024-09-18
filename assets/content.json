@@ -5,7 +5,7 @@
       "detail": "",
       "price": "135",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -21,7 +21,7 @@
       "detail": "",
       "price": "185",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -29,7 +29,7 @@
       "detail": "",
       "price": "147",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -37,7 +37,7 @@
       "detail": "",
       "price": "195",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -45,7 +45,7 @@
       "detail": "",
       "price": "177",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -53,7 +53,7 @@
       "detail": "",
       "price": "179",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -61,7 +61,7 @@
       "detail": "",
       "price": "277",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -69,7 +69,7 @@
       "detail": "",
       "price": "327",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -77,7 +77,7 @@
       "detail": "",
       "price": "297",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -85,7 +85,7 @@
       "detail": "",
       "price": "295",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -93,7 +93,7 @@
       "detail": "",
       "price": "437",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 1
     },
     {
@@ -109,7 +109,7 @@
       "detail": "",
       "price": "420",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -117,7 +117,7 @@
       "detail": "",
       "price": "1,179",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -125,7 +125,7 @@
       "detail": "با شارژ نامحدود",
       "price": "43",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -133,7 +133,7 @@
       "detail": "",
       "price": "117",
       "type": "صبحانه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -141,7 +141,7 @@
       "detail": "",
       "price": "97",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -149,7 +149,7 @@
       "detail": "",
       "price": "157",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -157,7 +157,7 @@
       "detail": "",
       "price": "177",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -165,7 +165,7 @@
       "detail": "",
       "price": "177",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -173,7 +173,7 @@
       "detail": "",
       "price": "279",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -181,7 +181,7 @@
       "detail": "",
       "price": "377",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -189,7 +189,7 @@
       "detail": "",
       "price": "319",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -197,7 +197,7 @@
       "detail": "",
       "price": "237",
       "type": "پیش غذا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -205,7 +205,7 @@
       "detail": "",
       "price": "287",
       "type": "برگر",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -213,7 +213,7 @@
       "detail": "",
       "price": "247",
       "type": "برگر",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -221,7 +221,7 @@
       "detail": "",
       "price": "297",
       "type": "برگر",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -229,7 +229,7 @@
       "detail": "",
       "price": "339",
       "type": "برگر",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -237,7 +237,7 @@
       "detail": "",
       "price": "365",
       "type": "برگر",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -253,7 +253,7 @@
       "detail": "",
       "price": "263",
       "type": "پاستا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -261,7 +261,7 @@
       "detail": "",
       "price": "347",
       "type": "پاستا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -269,7 +269,7 @@
       "detail": "",
       "price": "297",
       "type": "پاستا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -277,7 +277,7 @@
       "detail": "",
       "price": "367",
       "type": "پاستا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -285,7 +285,7 @@
       "detail": "",
       "price": "287",
       "type": "پاستا",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -293,7 +293,7 @@
       "detail": "فروش در روز های خاص",
       "price": "670",
       "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -301,7 +301,7 @@
       "detail": "",
       "price": "477",
       "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -309,7 +309,7 @@
       "detail": "",
       "price": "395",
       "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -317,7 +317,7 @@
       "detail": "",
       "price": "379",
       "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -325,7 +325,7 @@
       "detail": "",
       "price": "293",
       "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -333,7 +333,7 @@
       "detail": "",
       "price": "327",
       "type": "غذای اصلی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -341,7 +341,7 @@
       "detail": "",
       "price": "473",
       "type": "غذای مخصوص",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -349,7 +349,7 @@
       "detail": "",
       "price": "357",
       "type": "غذای مخصوص",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -357,7 +357,7 @@
       "detail": "",
       "price": "427",
       "type": "غذای مخصوص",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -365,7 +365,7 @@
       "detail": "",
       "price": "377",
       "type": "غذای مخصوص",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -373,7 +373,7 @@
       "detail": "",
       "price": "383",
       "type": "غذای مخصوص",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -381,7 +381,7 @@
       "detail": "",
       "price": "337",
       "type": "غذای مخصوص",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -389,7 +389,7 @@
       "detail": "",
       "price": "650",
       "type": "غذای مخصوص",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -397,7 +397,7 @@
       "detail": "",
       "price": "217",
       "type": "اسموتی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -405,7 +405,7 @@
       "detail": "",
       "price": "193",
       "type": "اسموتی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -413,7 +413,7 @@
       "detail": "",
       "price": "226",
       "type": "اسموتی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -421,7 +421,7 @@
       "detail": "",
       "price": "72",
       "type": "قهوه دمی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -429,7 +429,7 @@
       "detail": "",
       "price": "176",
       "type": "قهوه دمی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -437,7 +437,7 @@
       "detail": "",
       "price": "207",
       "type": "قهوه دمی",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -445,7 +445,7 @@
       "detail": "",
       "price": "127",
       "type": "نوشیدنی گرم",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -453,7 +453,7 @@
       "detail": "",
       "price": "119",
       "type": "نوشیدنی گرم",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -461,7 +461,7 @@
       "detail": "",
       "price": "139",
       "type": "نوشیدنی گرم",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -469,7 +469,7 @@
       "detail": "",
       "price": "157",
       "type": "نوشیدنی گرم",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -477,7 +477,7 @@
       "detail": "",
       "price": "157",
       "type": "نوشیدنی گرم",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -485,7 +485,7 @@
       "detail": "",
       "price": "67",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -493,7 +493,7 @@
       "detail": "",
       "price": "85",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -501,7 +501,7 @@
       "detail": "",
       "price": "67",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -509,7 +509,7 @@
       "detail": "",
       "price": "85",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -517,7 +517,7 @@
       "detail": "",
       "price": "93",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -525,7 +525,7 @@
       "detail": "",
       "price": "93",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -533,7 +533,7 @@
       "detail": "",
       "price": "117",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -541,7 +541,7 @@
       "detail": "",
       "price": "109",
       "type": "قهوه",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -557,7 +557,7 @@
       "detail": "",
       "price": "47",
       "type": "چای",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -565,7 +565,7 @@
       "detail": "",
       "price": "93",
       "type": "چای",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -573,7 +573,7 @@
       "detail": "",
       "price": "127",
       "type": "چای",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -581,7 +581,7 @@
       "detail": "",
       "price": "87",
       "type": "چای",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -589,7 +589,7 @@
       "detail": "",
       "price": "147",
       "type": "چای",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -597,7 +597,7 @@
       "detail": "",
       "price": "از ما بپرسید",
       "type": "کیک و دسر",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -605,7 +605,7 @@
       "detail": "",
       "price": "از ما بپرسید",
       "type": "کیک و دسر",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -613,7 +613,7 @@
       "detail": "",
       "price": "117",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -621,7 +621,7 @@
       "detail": "",
       "price": "127",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -629,7 +629,7 @@
       "detail": "",
       "price": "143",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -637,7 +637,7 @@
       "detail": "",
       "price": "97",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -645,7 +645,7 @@
       "detail": "",
       "price": "113",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -653,7 +653,7 @@
       "detail": "",
       "price": "169",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -661,7 +661,7 @@
       "detail": "",
       "price": "197",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -669,7 +669,7 @@
       "detail": "",
       "price": "132",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -677,7 +677,7 @@
       "detail": "",
       "price": "193",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -685,7 +685,7 @@
       "detail": "",
       "price": "207",
       "type": "ماکتل",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -693,7 +693,7 @@
       "detail": "",
       "price": "217",
       "type": "شیک",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -701,7 +701,7 @@
       "detail": "",
       "price": "227",
       "type": "شیک",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -709,7 +709,7 @@
       "detail": "",
       "price": "213",
       "type": "شیک",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -717,7 +717,7 @@
       "detail": "",
       "price": "207",
       "type": "شیک",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -725,7 +725,7 @@
       "detail": "",
       "price": "193",
       "type": "شیک",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -733,7 +733,7 @@
       "detail": "",
       "price": "256",
       "type": "شیک",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     },
     {
@@ -741,7 +741,7 @@
       "detail": "",
       "price": "217",
       "type": "شیک",
-      "image": "./assets/pizza.jpg",
+      "image": "",
       "offer": 0
     }
   ]
