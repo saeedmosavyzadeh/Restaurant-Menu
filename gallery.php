@@ -9,7 +9,6 @@
     <title>گالری آلفا</title>
     <link href="./style/bootstrap.css" rel="stylesheet">
     <link href="./style/stylesheet.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded" rel="stylesheet">
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
 </head>
 
@@ -53,25 +52,33 @@
                                 </div>
                             </div>
                         </nav>
-
-
                         <div id="menu" class="card-body p-3">
-
-                            <div class="gallery-container d-grid">
-
-
-                            </div>
+                            <?php
+                            $dir = 'assets/images/';
+                            $files = scandir($dir);
+                            $ext = '.jpg';
+                            foreach ($files as $img) {
+                                if (substr_compare($img, $ext, -strlen($ext), strlen($ext)) === 0) {
+                            ?>
+                                    <div class="gallerycontainer mb-1 card">
+                                        <img loading="lazy" src="assets/images/<?= $img ?>">
+                                    </div>
+                            <?php
+                                }
+                            }
+                            ?>
                         </div>
+                    </div>
 
-                        <div class="card-footer py-3 border-0">
-                            <div class="text-center">
-                                توسعه دهنده
-                                <a class="text-success nounder" href="https://saeedmosavyzadeh.ir">سعید موسوی زاده</a>
-                            </div>
+                    <div class="card-footer py-3 border-0">
+                        <div class="text-center">
+                            توسعه دهنده
+                            <a class="text-success nounder" href="https://saeedmosavyzadeh.ir">سعید موسوی زاده</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <script src="./js/bootstrap.js"></script>

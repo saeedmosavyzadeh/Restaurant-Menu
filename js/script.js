@@ -38,9 +38,9 @@ const RegBtn = document.getElementById("registerBtn");
 const messageResult = document.getElementById("message-result");
 const resultBody = document.getElementById("result-body");
 const resultTitle = document.getElementById("result-title");
-
 const loadingScreen = document.getElementById("loadingScreen");
 const main = document.getElementById("main");
+
 window.addEventListener("load", function () {
   loadingScreen.classList.add("d-none");
   main.style.display = "";
