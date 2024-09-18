@@ -61,7 +61,7 @@
                                 if (substr_compare($img, $ext, -strlen($ext), strlen($ext)) === 0) {
                             ?>
                                     <div class="gallerycontainer mb-1 card">
-                                        <img loading="lazy" src="assets/images/<?= $img ?>">
+                                        <img data-enlargeable style="cursor: zoom-in" src="assets/images/<?= $img ?>">
                                     </div>
                             <?php
                                 }
